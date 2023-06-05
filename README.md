@@ -1,21 +1,18 @@
+**deploy:**
+https://dmtrth25.github.io/delivery-app/
+
 **Setup:**
-1. First of all you should install the dependencies
+1. You should install dependencies and run the project
 ```bash
 $ yarn install
 ```
-2. Run the local server and api server on separate window (for server I used json-server)
 
 ```bash
 $ yarn start
 ```
 
-In the new terminal window run the api
-```bash
-$ yarn start:api
-```
-
 **Features:**
-Select the shop and choose the goods
+Select the shop and choose the goods.
 Next step is to create an order on the cart page /cart route
 
 ## Creating project was used:
@@ -31,5 +28,5 @@ Next step is to create an order on the cart page /cart route
 
 - **axios** - for requests
 - **typescript** - for types
-- **json-server** - for API
+- **https://render.com/** - for deploy API
 - **scss** - for styles
