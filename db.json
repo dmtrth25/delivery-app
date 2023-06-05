@@ -1,0 +1,76 @@
+{
+  "shops": [
+    {
+      "id": "1",
+      "name": "Space Chicken",
+      "menu": [
+        {
+          "id": 1,
+          "title": "Hot Chicken",
+          "img": "/pictures/1.jpeg",
+          "price": "550"
+        },
+        {
+          "id": 2,
+          "title": "Cold Chicken",
+          "img": "/pictures/2.png",
+          "price": "270"
+        },
+        {
+          "id": 3,
+          "title": "Fresh Chicken",
+          "img": "/pictures/3.jpeg",
+          "price": "777"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Burger King",
+      "menu": [
+        {
+          "id": 1,
+          "title": "Hot Burger",
+          "img": "/pictures/hot-burger.jpeg",
+          "price": "222"
+        },
+        {
+          "id": 2,
+          "title": "Burger & Cola",
+          "img": "/pictures/burger-cola.avif",
+          "price": "350"
+        },
+        {
+          "id": 3,
+          "title": "XL Burger",
+          "img": "/pictures/xl-burger.webp",
+          "price": "480"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ATБ",
+      "menu": [
+        {
+          "id": 1,
+          "title": "Potatoes",
+          "img": "/pictures/potatoes.jpeg",
+          "price": "90"
+        },
+        {
+          "id": 2,
+          "title": "Apples",
+          "img": "/pictures/apples.jpeg",
+          "price": "45"
+        },
+        {
+          "id": 3,
+          "title": "Oranges",
+          "img": "/pictures/oranges.webp",
+          "price": "50"
+        }
+      ]
+    }
+  ]
+}

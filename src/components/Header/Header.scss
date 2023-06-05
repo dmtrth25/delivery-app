@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+  color: yellow;
+  font-size: 18px;
+}
+
+.without {
+  color: #fff;
+  font-size: 16px;
+}
+
+.link {
+  font-size: 22px;
+}

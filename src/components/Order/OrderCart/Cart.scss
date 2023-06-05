@@ -1,0 +1,17 @@
+.order {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 25px;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 25px;
+  width: 80%;
+}
+
+.total-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 150px;
+  margin-right: 50px;
+}
