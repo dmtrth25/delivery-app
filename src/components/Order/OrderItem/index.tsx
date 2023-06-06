@@ -40,7 +40,7 @@ const OrderItem: FC<OrderItemProps> = ({
         <p>{count}</p>
         <AiOutlinePlus onClick={plus} size={22} />
       </div>
-      <div className="remove-btn" onClick={() => handleClick(item)}>
+      <div className="remove-btn" onClick={() => handleClick(item.id)}>
         remove
       </div>
     </div>

@@ -31,7 +31,7 @@ export interface ProductItemProps {
   
 export interface OrderItemProps {
   item: MenuItem;
-  handleClick: (item: MenuItem) => void;
+  handleClick: (id: number) => void;
   handleTotalCount: (count: number) => void;
 }
   

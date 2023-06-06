@@ -13,9 +13,13 @@ const OrdersCart: FC<OrdersCartProps> = ({ user }) => {
   const { updateOrder } = ShopService()
 
   useEffect(() => {
+    let newTotalPrice = 0
+
     ordersList.forEach((item) => {
-      setTotalPrice((totalPrice) => totalPrice + Number(item.price))
+      newTotalPrice += Number(item.price)
     })
+
+    setTotalPrice(newTotalPrice)
   }, [ordersList])
 
   useEffect(() => {
@@ -29,11 +33,16 @@ const OrdersCart: FC<OrdersCartProps> = ({ user }) => {
     }
   }, [user])
 
-  const handleClick = (item: MenuItem) => {
-    const newOrdersList = ordersList.filter((el) => el.id !== item.id)
-
+  const handleClick = (itemId: number) => {
+    const newOrdersList = ordersList.filter((el) => el.id !== itemId)
     setOrdersList(newOrdersList)
-    setTotalPrice((totalPrice) => totalPrice - Number(item.price))
+
+    let newTotalPrice = 0
+    newOrdersList.forEach((item) => {
+      newTotalPrice += Number(item.price)
+    })
+
+    setTotalPrice(newTotalPrice)
     localStorage.setItem("orders", JSON.stringify(newOrdersList))
   }
 
