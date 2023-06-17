@@ -1,5 +1,5 @@
 **deploy:**
-https://dmtrth25.github.io/delivery-app/
+https://dmtrth25.github.io/shops-app/
 
 **Setup:**
 1. You should install dependencies and run the project

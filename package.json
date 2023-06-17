@@ -1,7 +1,7 @@
 {
-  "name": "delivery-app",
+  "name": "shops-app",
   "version": "0.1.0",
-  "homepage": "http://dmtrth25.github.io/delivery-app",
+  "homepage": "http://dmtrth25.github.io/shops-app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
