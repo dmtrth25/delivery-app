@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/delivery-app/static/css/main.8afe9df6.css",
-    "main.js": "/delivery-app/static/js/main.6bc908b4.js",
-    "static/css/878.3f4fbf07.chunk.css": "/delivery-app/static/css/878.3f4fbf07.chunk.css",
-    "static/js/878.b3a965e7.chunk.js": "/delivery-app/static/js/878.b3a965e7.chunk.js",
-    "index.html": "/delivery-app/index.html",
-    "main.8afe9df6.css.map": "/delivery-app/static/css/main.8afe9df6.css.map",
-    "main.6bc908b4.js.map": "/delivery-app/static/js/main.6bc908b4.js.map",
-    "878.3f4fbf07.chunk.css.map": "/delivery-app/static/css/878.3f4fbf07.chunk.css.map",
-    "878.b3a965e7.chunk.js.map": "/delivery-app/static/js/878.b3a965e7.chunk.js.map"
+    "main.css": "/shops-app/static/css/main.8afe9df6.css",
+    "main.js": "/shops-app/static/js/main.fa8f58d1.js",
+    "static/css/878.3f4fbf07.chunk.css": "/shops-app/static/css/878.3f4fbf07.chunk.css",
+    "static/js/878.0ec0435d.chunk.js": "/shops-app/static/js/878.0ec0435d.chunk.js",
+    "index.html": "/shops-app/index.html",
+    "main.8afe9df6.css.map": "/shops-app/static/css/main.8afe9df6.css.map",
+    "main.fa8f58d1.js.map": "/shops-app/static/js/main.fa8f58d1.js.map",
+    "878.3f4fbf07.chunk.css.map": "/shops-app/static/css/878.3f4fbf07.chunk.css.map",
+    "878.0ec0435d.chunk.js.map": "/shops-app/static/js/878.0ec0435d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8afe9df6.css",
-    "static/js/main.6bc908b4.js"
+    "static/js/main.fa8f58d1.js"
   ]
 }
